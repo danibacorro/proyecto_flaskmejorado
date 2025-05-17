@@ -4,10 +4,17 @@
 
 <h1 style="text-align: center;">Buscador</h1>
 
-<div class="container text-center" style="margin: 40px;">
+<div class="container text-center" style="margin-bottom: 40px;">
     <form action="{{url_for('busqueda')}}" method="POST" class="form-inline justify-content-center">
         <p>Introduce un modelo:</p>
-        <input type="text" name="buscador" placeholder="Audi A4" class="form-control" style="margin-right: 20px;" value="{{nombre}}">
+        <input type="text" name="buscador" placeholder="Audi A4" class="form-control" value="{{nombre}}">
+        <p style="margin: 20px;">Selecciona un clima:</p>
+        <select name="clima" class="form-control" style="margin-right: 20px;">
+            <option value="">Cualquiera</option>
+            <option value="Soleado">Soleado</option>
+            <option value="Nublado">Nublado</option>
+            <option value="Lluvioso">Lluvioso</option>
+        </select>
         <button type="submit" class="btn btn-primary">Buscar</button>
     </form>
 </div>
