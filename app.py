@@ -39,4 +39,5 @@ def detalle(id):
                 return render_template('detalle.html', prueba=prueba)
     return "Error 404. Este modelo no existe.", 404
 
-app.run("0.0.0.0",5000,debug=True)
+if __name__ == "__main__":
+    app.run()
