@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Buscador - Dani Baco{% endblock %}
+{% block content %}
+
+<h1 style="text-align: center;">Buscador</h1>
+
+<div class="container text-center" style="margin: 40px;">
+    <form action="{{url_for('lista')}}" method="POST" class="form-inline justify-content-center">
+        <p>Introduce un modelo:</p>
+        <input type="text" name="buscador" placeholder="Audi A4" class="form-control" style="margin-right: 20px;">
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
+</div>
+
+{% endblock %}
