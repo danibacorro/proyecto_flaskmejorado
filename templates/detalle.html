@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Detalle - {{prueba.modelo}}{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h1>{{prueba.modelo}}</h1>
+    <p><b>Consumo urbano:</b> {{prueba.consumo.ciudad}} L/100km</p>
+    <p><b>Consumo extraurbano:</b> {{prueba.consumo.carretera}} L/100km</p>
+    <p><b>Consumo combinado:</b> {{prueba.consumo.combinado}} L/100km</p>
+    <p><b>Ayudas de conducción:</b></p>
+    <ul style="margin-bottom: 30px; margin-top: -10px;">
+      {% for asistencia in prueba.asistencia_conductor %}
+        <li>{{asistencia}}</li>
+      {% endfor %}
+    </ul>
+    <p><b>Aceleración (0-100):</b> {{prueba.resultados.aceleracion_0_100}} s</p>
+    <p><b>Distancia frenado (100-0):</b> {{prueba.resultados.frenada_100_0}} metros</p>
+    <p><b>Clima:</b> {{prueba.condiciones.clima}}</p>
+</div>
+<div class="container">
+    <a href="{{url_for('busqueda')}}">Volver al buscador</p>
+</div>
+
+{% endblock %}

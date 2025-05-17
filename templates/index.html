@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Inicio - Dani Baco{% endblock %}
+{% block content %}
+
+<h1 style="text-align: center;">Inicio</h1>
+
+<div class="text-center">
+    <a href="{{url_for('busqueda')}}"><img src="{{url_for('static', filename='images/Logo.png')}}" alt="Logo búsqueda" class="img-responsive center-block" style="max-width: 300px; margin: 40px auto;"></a>
+    <p>Haz click en la imagen para iniciar la búsqueda.</p>
+</div>
+
+{% endblock %}

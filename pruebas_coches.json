@@ -1,0 +1,1214 @@
+[
+  {
+    "_id": "1",
+    "fecha": "2025-05-06",
+    "pruebas": [
+      {
+        "id": "coche_1",
+        "modelo": "Toyota Yaris",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 8.2,
+          "carretera": 5.7,
+          "combinado": 6.6
+        },
+        "rendimiento": {
+          "velocidad_media": 120,
+          "tiempo_total": 90,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.2,
+          "frenada_100_0": 35.4,
+          "emisiones_CO2": 120
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 22,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_2",
+        "modelo": "Ford Mustang",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Cámara de reversa",
+          "Alerta de colisión frontal",
+          "Alerta de cambio de carril"
+        ],
+        "consumo": {
+          "ciudad": 14.3,
+          "carretera": 10.1,
+          "combinado": 12.0
+        },
+        "rendimiento": {
+          "velocidad_media": 130,
+          "tiempo_total": 85,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 5.5,
+          "frenada_100_0": 32.2,
+          "emisiones_CO2": 220
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 18,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "fecha": "2025-05-10",
+    "pruebas": [
+      {
+        "id": "coche_3",
+        "modelo": "Honda Accord",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril",
+          "Alerta de cambio de carril"
+        ],
+        "consumo": {
+          "ciudad": 9.5,
+          "carretera": 6.8,
+          "combinado": 8.0
+        },
+        "rendimiento": {
+          "velocidad_media": 115,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.0,
+          "frenada_100_0": 33.0,
+          "emisiones_CO2": 160
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 21,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_4",
+        "modelo": "Chevrolet Malibu",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Cámara de reversa",
+          "Alerta de cambio de carril"
+        ],
+        "consumo": {
+          "ciudad": 10.0,
+          "carretera": 7.2,
+          "combinado": 8.5
+        },
+        "rendimiento": {
+          "velocidad_media": 120,
+          "tiempo_total": 95,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.7,
+          "frenada_100_0": 34.0,
+          "emisiones_CO2": 175
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 19,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "fecha": "2025-05-16",
+    "pruebas": [
+      {
+        "id": "coche_5",
+        "modelo": "Toyota Camry",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 8.2,
+          "carretera": 5.7,
+          "combinado": 6.6
+        },
+        "rendimiento": {
+          "velocidad_media": 120,
+          "tiempo_total": 90,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.2,
+          "frenada_100_0": 35.4,
+          "emisiones_CO2": 120
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 22,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_6",
+        "modelo": "Ford Focus",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Cámara de reversa",
+          "Alerta de colisión frontal",
+          "Alerta de cambio de carril"
+        ],
+        "consumo": {
+          "ciudad": 14.3,
+          "carretera": 10.1,
+          "combinado": 12.0
+        },
+        "rendimiento": {
+          "velocidad_media": 130,
+          "tiempo_total": 85,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 5.5,
+          "frenada_100_0": 32.2,
+          "emisiones_CO2": 220
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 18,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "fecha": "2025-05-20",
+    "pruebas": [
+      {
+        "id": "coche_7",
+        "modelo": "Hyundai Tucson",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 11.0,
+          "carretera": 8.0,
+          "combinado": 9.5
+        },
+        "rendimiento": {
+          "velocidad_media": 120,
+          "tiempo_total": 95,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.0,
+          "frenada_100_0": 34.5,
+          "emisiones_CO2": 170
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 25,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_8",
+        "modelo": "Mazda 3",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de cambio de carril",
+          "Reconocimiento de señales de tráfico",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 10.5,
+          "carretera": 7.5,
+          "combinado": 9.0
+        },
+        "rendimiento": {
+          "velocidad_media": 115,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.2,
+          "frenada_100_0": 33.0,
+          "emisiones_CO2": 180
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 21,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "fecha": "2025-05-22",
+    "pruebas": [
+      {
+        "id": "coche_9",
+        "modelo": "Hyundai Sonata",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 11.0,
+          "carretera": 8.0,
+          "combinado": 9.5
+        },
+        "rendimiento": {
+          "velocidad_media": 120,
+          "tiempo_total": 95,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.0,
+          "frenada_100_0": 34.5,
+          "emisiones_CO2": 170
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 25,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_10",
+        "modelo": "Mazda 6",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Alerta de cambio de carril",
+          "Reconocimiento de señales de tráfico",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 10.5,
+          "carretera": 7.5,
+          "combinado": 9.0
+        },
+        "rendimiento": {
+          "velocidad_media": 115,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.2,
+          "frenada_100_0": 33.0,
+          "emisiones_CO2": 180
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 21,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "6",
+    "fecha": "2025-05-25",
+    "pruebas": [
+      {
+        "id": "coche_11",
+        "modelo": "Ford Explorer",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Cámara de reversa",
+          "Alerta de colisión frontal",
+          "Monitoreo de punto ciego"
+        ],
+        "consumo": {
+          "ciudad": 13.2,
+          "carretera": 9.0,
+          "combinado": 11.0
+        },
+        "rendimiento": {
+          "velocidad_media": 125,
+          "tiempo_total": 95,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 7.8,
+          "frenada_100_0": 32.5,
+          "emisiones_CO2": 200
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 23,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_12",
+        "modelo": "Toyota Corolla",
+        "asistencia_conductor": [
+          "ABS",
+          "Control de tracción",
+          "Asistente de mantenimiento de carril",
+          "Alerta de cambio de carril",
+          "Cámara de reversa"
+        ],
+        "consumo": {
+          "ciudad": 7.8,
+          "carretera": 5.9,
+          "combinado": 6.8
+        },
+        "rendimiento": {
+          "velocidad_media": 110,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 10.5,
+          "frenada_100_0": 36.0,
+          "emisiones_CO2": 140
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 19,
+          "viento": "Suave"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "7",
+    "fecha": "2025-05-26",
+    "pruebas": [
+      {
+        "id": "coche_13",
+        "modelo": "Audi A5",
+        "asistencia_conductor": [
+          "Asistente de mantenimiento de carril",
+          "Cámara de reversa",
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Monitoreo de punto ciego"
+        ],
+        "consumo": {
+          "ciudad": 7.2,
+          "carretera": 9.0,
+          "combinado": 9.8
+        },
+        "rendimiento": {
+          "velocidad_media": 116,
+          "tiempo_total": 95,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 7.6,
+          "frenada_100_0": 35.2,
+          "emisiones_CO2": 169
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 26,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_14",
+        "modelo": "Renault Clio",
+        "asistencia_conductor": [
+          "Alerta de colisión frontal",
+          "Cámara de reversa",
+          "Control de tracción",
+          "Alerta de cambio de carril",
+          "Control crucero adaptativo"
+        ],
+        "consumo": {
+          "ciudad": 11.6,
+          "carretera": 9.9,
+          "combinado": 10.9
+        },
+        "rendimiento": {
+          "velocidad_media": 118,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 7.6,
+          "frenada_100_0": 35.0,
+          "emisiones_CO2": 140
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 18,
+          "viento": "Suave"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "8",
+    "fecha": "2025-05-27",
+    "pruebas": [
+      {
+        "id": "coche_15",
+        "modelo": "Subaru Impreza",
+        "asistencia_conductor": [
+          "Monitoreo de punto ciego",
+          "Control de tracción",
+          "Control crucero adaptativo",
+          "ABS",
+          "Alerta de cambio de carril"
+        ],
+        "consumo": {
+          "ciudad": 11.1,
+          "carretera": 6.7,
+          "combinado": 12.2
+        },
+        "rendimiento": {
+          "velocidad_media": 112,
+          "tiempo_total": 101,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.5,
+          "frenada_100_0": 34.9,
+          "emisiones_CO2": 177
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 19,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_16",
+        "modelo": "Mercedes-Benz A-Class",
+        "asistencia_conductor": [
+          "ABS",
+          "Monitoreo de punto ciego",
+          "Control crucero adaptativo",
+          "Asistente de mantenimiento de carril",
+          "Control de tracción"
+        ],
+        "consumo": {
+          "ciudad": 10.8,
+          "carretera": 8.2,
+          "combinado": 10.3
+        },
+        "rendimiento": {
+          "velocidad_media": 114,
+          "tiempo_total": 109,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 5.5,
+          "frenada_100_0": 33.7,
+          "emisiones_CO2": 144
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 21,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "9",
+    "fecha": "2025-05-28",
+    "pruebas": [
+      {
+        "id": "coche_17",
+        "modelo": "Skoda Rapid",
+        "asistencia_conductor": [
+          "Reconocimiento de señales de tráfico",
+          "Control crucero adaptativo",
+          "Alerta de cambio de carril",
+          "Monitoreo de punto ciego",
+          "Alerta de colisión frontal"
+        ],
+        "consumo": {
+          "ciudad": 10.1,
+          "carretera": 6.8,
+          "combinado": 8.7
+        },
+        "rendimiento": {
+          "velocidad_media": 118,
+          "tiempo_total": 87,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 7.1,
+          "frenada_100_0": 32.8,
+          "emisiones_CO2": 134
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 23,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_18",
+        "modelo": "Peugeot 5008",
+        "asistencia_conductor": [
+          "ABS",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril",
+          "Alerta de colisión frontal",
+          "Alerta de cambio de carril"
+        ],
+        "consumo": {
+          "ciudad": 7.3,
+          "carretera": 9.1,
+          "combinado": 7.6
+        },
+        "rendimiento": {
+          "velocidad_media": 123,
+          "tiempo_total": 101,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.6,
+          "frenada_100_0": 33.5,
+          "emisiones_CO2": 146
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 18,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "10",
+    "fecha": "2025-05-29",
+    "pruebas": [
+      {
+        "id": "coche_19",
+        "modelo": "Subaru Legacy",
+        "asistencia_conductor": [
+          "Alerta de cambio de carril",
+          "Asistente de mantenimiento de carril",
+          "Control crucero adaptativo",
+          "Control de tracción",
+          "ABS"
+        ],
+        "consumo": {
+          "ciudad": 12.5,
+          "carretera": 6.1,
+          "combinado": 11.4
+        },
+        "rendimiento": {
+          "velocidad_media": 123,
+          "tiempo_total": 103,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 6.6,
+          "frenada_100_0": 32.9,
+          "emisiones_CO2": 179
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 25,
+          "viento": "Suave"
+        }
+      },
+      {
+        "id": "coche_20",
+        "modelo": "Mercedes-Benz E-Class",
+        "asistencia_conductor": [
+          "Control de tracción",
+          "Alerta de colisión frontal",
+          "Alerta de cambio de carril",
+          "Cámara de reversa",
+          "Control crucero adaptativo"
+        ],
+        "consumo": {
+          "ciudad": 11.3,
+          "carretera": 7.7,
+          "combinado": 9.7
+        },
+        "rendimiento": {
+          "velocidad_media": 122,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 6.6,
+          "frenada_100_0": 35.2,
+          "emisiones_CO2": 222
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 21,
+          "viento": "Moderado"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "11",
+    "fecha": "2025-05-30",
+    "pruebas": [
+      {
+        "id": "coche_21",
+        "modelo": "Mercedes-Benz B-Class",
+        "asistencia_conductor": [
+          "Monitoreo de punto ciego",
+          "Control crucero adaptativo",
+          "Asistente de mantenimiento de carril",
+          "Control de tracción",
+          "Cámara de reversa"
+        ],
+        "consumo": {
+          "ciudad": 9.7,
+          "carretera": 7.5,
+          "combinado": 10.1
+        },
+        "rendimiento": {
+          "velocidad_media": 125,
+          "tiempo_total": 107,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 5.9,
+          "frenada_100_0": 32.6,
+          "emisiones_CO2": 138
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 18,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_22",
+        "modelo": "Peugeot 208",
+        "asistencia_conductor": [
+          "Cámara de reversa",
+          "Alerta de colisión frontal",
+          "Reconocimiento de señales de tráfico",
+          "Monitoreo de punto ciego",
+          "ABS"
+        ],
+        "consumo": {
+          "ciudad": 7.7,
+          "carretera": 8.5,
+          "combinado": 10.7
+        },
+        "rendimiento": {
+          "velocidad_media": 115,
+          "tiempo_total": 86,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 10.8,
+          "frenada_100_0": 35.8,
+          "emisiones_CO2": 171
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 26,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_23",
+        "modelo": "Nissan Qashqai",
+        "asistencia_conductor": [
+          "Alerta de cambio de carril",
+          "Cámara de reversa",
+          "Reconocimiento de señales de tráfico",
+          "Control de tracción",
+          "Monitoreo de punto ciego"
+        ],
+        "consumo": {
+          "ciudad": 12.4,
+          "carretera": 5.0,
+          "combinado": 8.5
+        },
+        "rendimiento": {
+          "velocidad_media": 118,
+          "tiempo_total": 108,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.2,
+          "frenada_100_0": 35.7,
+          "emisiones_CO2": 133
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 25,
+          "viento": "Suave"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "12",
+    "fecha": "2025-05-31",
+    "pruebas": [
+      {
+        "id": "coche_24",
+        "modelo": "Mercedes-Benz C-Class",
+        "asistencia_conductor": [
+          "Control crucero adaptativo",
+          "Control de tracción",
+          "ABS",
+          "Reconocimiento de señales de tráfico",
+          "Cámara de reversa"
+        ],
+        "consumo": {
+          "ciudad": 13.0,
+          "carretera": 8.8,
+          "combinado": 7.5
+        },
+        "rendimiento": {
+          "velocidad_media": 116,
+          "tiempo_total": 107,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 6.6,
+          "frenada_100_0": 33.1,
+          "emisiones_CO2": 141
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 24,
+          "viento": "Suave"
+        }
+      },
+      {
+        "id": "coche_25",
+        "modelo": "Nissan Altima",
+        "asistencia_conductor": [
+          "Monitoreo de punto ciego",
+          "Control crucero adaptativo",
+          "Alerta de colisión frontal",
+          "Cámara de reversa",
+          "Control de tracción"
+        ],
+        "consumo": {
+          "ciudad": 14.5,
+          "carretera": 8.4,
+          "combinado": 11.2
+        },
+        "rendimiento": {
+          "velocidad_media": 110,
+          "tiempo_total": 110,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.2,
+          "frenada_100_0": 32.4,
+          "emisiones_CO2": 125
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 23,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_26",
+        "modelo": "Peugeot 508",
+        "asistencia_conductor": [
+          "Alerta de cambio de carril",
+          "Reconocimiento de señales de tráfico",
+          "Alerta de colisión frontal",
+          "Control crucero adaptativo",
+          "ABS"
+        ],
+        "consumo": {
+          "ciudad": 10.8,
+          "carretera": 9.6,
+          "combinado": 6.8
+        },
+        "rendimiento": {
+          "velocidad_media": 114,
+          "tiempo_total": 102,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.1,
+          "frenada_100_0": 33.5,
+          "emisiones_CO2": 229
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 23,
+          "viento": "Moderado"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "13",
+    "fecha": "2025-06-01",
+    "pruebas": [
+      {
+        "id": "coche_27",
+        "modelo": "Volvo S60",
+        "asistencia_conductor": [
+          "Alerta de colisión frontal",
+          "Cámara de reversa",
+          "Control crucero adaptativo",
+          "Control de tracción",
+          "Monitoreo de punto ciego"
+        ],
+        "consumo": {
+          "ciudad": 10.0,
+          "carretera": 6.8,
+          "combinado": 9.2
+        },
+        "rendimiento": {
+          "velocidad_media": 121,
+          "tiempo_total": 91,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.2,
+          "frenada_100_0": 34.4,
+          "emisiones_CO2": 210
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 21,
+          "viento": "Moderado"
+        }
+      },
+      {
+        "id": "coche_28",
+        "modelo": "Kia Optima",
+        "asistencia_conductor": [
+          "Control de tracción",
+          "Asistente de mantenimiento de carril",
+          "Alerta de cambio de carril",
+          "Cámara de reversa",
+          "Reconocimiento de señales de tráfico"
+        ],
+        "consumo": {
+          "ciudad": 7.8,
+          "carretera": 6.0,
+          "combinado": 10.7
+        },
+        "rendimiento": {
+          "velocidad_media": 130,
+          "tiempo_total": 107,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 10.0,
+          "frenada_100_0": 33.6,
+          "emisiones_CO2": 165
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 21,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "14",
+    "fecha": "2025-06-02",
+    "pruebas": [
+      {
+        "id": "coche_29",
+        "modelo": "Volvo S40",
+        "asistencia_conductor": [
+          "Reconocimiento de señales de tráfico",
+          "ABS",
+          "Alerta de colisión frontal",
+          "Control crucero adaptativo",
+          "Control de tracción"
+        ],
+        "consumo": {
+          "ciudad": 11.4,
+          "carretera": 5.6,
+          "combinado": 9.0
+        },
+        "rendimiento": {
+          "velocidad_media": 127,
+          "tiempo_total": 91,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.4,
+          "frenada_100_0": 34.7,
+          "emisiones_CO2": 189
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 20,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_30",
+        "modelo": "Renault Captur",
+        "asistencia_conductor": [
+          "Reconocimiento de señales de tráfico",
+          "Asistente de mantenimiento de carril",
+          "ABS",
+          "Monitoreo de punto ciego",
+          "Control crucero adaptativo"
+        ],
+        "consumo": {
+          "ciudad": 9.6,
+          "carretera": 9.6,
+          "combinado": 8.2
+        },
+        "rendimiento": {
+          "velocidad_media": 111,
+          "tiempo_total": 101,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.3,
+          "frenada_100_0": 34.7,
+          "emisiones_CO2": 166
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 23,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_31",
+        "modelo": "Skoda Superb",
+        "asistencia_conductor": [
+          "Control crucero adaptativo",
+          "Control de tracción",
+          "Alerta de cambio de carril",
+          "Monitoreo de punto ciego",
+          "Cámara de reversa"
+        ],
+        "consumo": {
+          "ciudad": 8.4,
+          "carretera": 7.9,
+          "combinado": 7.0
+        },
+        "rendimiento": {
+          "velocidad_media": 123,
+          "tiempo_total": 100,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.3,
+          "frenada_100_0": 35.0,
+          "emisiones_CO2": 135
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 23,
+          "viento": "Suave"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "15",
+    "fecha": "2025-06-03",
+    "pruebas": [
+      {
+        "id": "coche_32",
+        "modelo": "Audi A4",
+        "asistencia_conductor": [
+          "Control de tracción",
+          "Monitoreo de punto ciego",
+          "Alerta de colisión frontal",
+          "Alerta de cambio de carril",
+          "Cámara de reversa"
+        ],
+        "consumo": {
+          "ciudad": 10.0,
+          "carretera": 6.9,
+          "combinado": 11.2
+        },
+        "rendimiento": {
+          "velocidad_media": 128,
+          "tiempo_total": 92,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 5.6,
+          "frenada_100_0": 34.6,
+          "emisiones_CO2": 185
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 24,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_33",
+        "modelo": "Peugeot 308",
+        "asistencia_conductor": [
+          "Alerta de cambio de carril",
+          "Reconocimiento de señales de tráfico",
+          "ABS",
+          "Monitoreo de punto ciego",
+          "Cámara de reversa"
+        ],
+        "consumo": {
+          "ciudad": 11.4,
+          "carretera": 7.5,
+          "combinado": 12.2
+        },
+        "rendimiento": {
+          "velocidad_media": 110,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 10.7,
+          "frenada_100_0": 32.9,
+          "emisiones_CO2": 218
+        },
+        "condiciones": {
+          "clima": "Soleado",
+          "temperatura": 18,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_34",
+        "modelo": "Volkswagen Passat",
+        "asistencia_conductor": [
+          "Asistente de mantenimiento de carril",
+          "Monitoreo de punto ciego",
+          "ABS",
+          "Alerta de colisión frontal",
+          "Control crucero adaptativo"
+        ],
+        "consumo": {
+          "ciudad": 14.3,
+          "carretera": 6.9,
+          "combinado": 10.5
+        },
+        "rendimiento": {
+          "velocidad_media": 124,
+          "tiempo_total": 105,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 6.4,
+          "frenada_100_0": 33.3,
+          "emisiones_CO2": 201
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 25,
+          "viento": "Moderado"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "16",
+    "fecha": "2025-06-04",
+    "pruebas": [
+      {
+        "id": "coche_35",
+        "modelo": "Volvo S60",
+        "asistencia_conductor": [
+          "Monitoreo de punto ciego",
+          "Alerta de colisión frontal",
+          "Cámara de reversa",
+          "Reconocimiento de señales de tráfico",
+          "Asistente de mantenimiento de carril"
+        ],
+        "consumo": {
+          "ciudad": 14.5,
+          "carretera": 6.6,
+          "combinado": 11.8
+        },
+        "rendimiento": {
+          "velocidad_media": 123,
+          "tiempo_total": 104,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 8.9,
+          "frenada_100_0": 33.3,
+          "emisiones_CO2": 176
+        },
+        "condiciones": {
+          "clima": "Lluvioso",
+          "temperatura": 19,
+          "viento": "Fuerte"
+        }
+      },
+      {
+        "id": "coche_36",
+        "modelo": "BMW Serie 3",
+        "asistencia_conductor": [
+          "Control crucero adaptativo",
+          "ABS",
+          "Monitoreo de punto ciego",
+          "Asistente de mantenimiento de carril",
+          "Reconocimiento de señales de tráfico"
+        ],
+        "consumo": {
+          "ciudad": 7.4,
+          "carretera": 5.8,
+          "combinado": 11.1
+        },
+        "rendimiento": {
+          "velocidad_media": 110,
+          "tiempo_total": 86,
+          "distancia_recorrida": 150
+        },
+        "resultados": {
+          "aceleracion_0_100": 9.2,
+          "frenada_100_0": 35.3,
+          "emisiones_CO2": 166
+        },
+        "condiciones": {
+          "clima": "Nublado",
+          "temperatura": 26,
+          "viento": "Fuerte"
+        }
+      }
+    ]
+  }
+]
