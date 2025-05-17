@@ -10,10 +10,10 @@
         <input type="text" name="buscador" placeholder="Audi A4" class="form-control" value="{{nombre}}">
         <p style="margin: 20px;">Selecciona un clima:</p>
         <select name="clima" class="form-control" style="margin-right: 20px;">
-            <option value="">Cualquiera</option>
-            <option value="Soleado">Soleado</option>
-            <option value="Nublado">Nublado</option>
-            <option value="Lluvioso">Lluvioso</option>
+            <option value="" {% if clima_seleccionado == "" %}selected{% endif %}>Cualquiera</option>
+            <option value="Soleado" {% if clima_seleccionado == "Soleado" %}selected{% endif %}>Soleado</option>
+            <option value="Nublado" {% if clima_seleccionado == "Nublado" %}selected{% endif %}>Nublado</option>
+            <option value="Lluvioso" {% if clima_seleccionado == "Lluvioso" %}selected{% endif %}>Lluvioso</option>
         </select>
         <button type="submit" class="btn btn-primary">Buscar</button>
     </form>
