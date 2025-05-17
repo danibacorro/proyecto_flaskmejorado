@@ -11,23 +11,24 @@ with open('pruebas_coches.json', encoding='utf-8') as f:
 def inicio():
     return render_template("index.html")
 
-@app.route("/busqueda")
-def busqueda():
-    return render_template("busqueda.html")
 
-@app.route('/lista', methods=['POST'])
-def lista():
-    listado = []
-    nombre = request.form.get('buscador', '').lower()
-    for coche in coches_json:
-        for prueba in coche["pruebas"]:
-            if prueba["modelo"].lower().startswith(nombre) or nombre == '':
-                listado.append({
-                    "id": prueba["id"],
-                    "modelo": prueba["modelo"],
-                    "consumo_combinado": prueba["consumo"]["combinado"]
-                })
-    return render_template('lista.html', listado=listado)
+@app.route('/busqueda', methods=['GET', 'POST'])
+def busqueda():
+    if request.method == 'POST':
+        listado = []
+        nombre = request.form.get('buscador', '').lower()
+        for coche in coches_json:
+            for prueba in coche["pruebas"]:
+                if prueba["modelo"].lower().startswith(nombre) or nombre == '':
+                    listado.append({
+                        "id": prueba["id"],
+                        "modelo": prueba["modelo"],
+                        "consumo_combinado": prueba["consumo"]["combinado"]
+                    })
+        return render_template('busqueda.html', listado=listado, nombre=nombre)
+    else:
+        return render_template('busqueda.html', listado=[], nombre='')
+
 
 @app.route('/detalle/<id>')
 def detalle(id):
