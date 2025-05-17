@@ -17,17 +17,18 @@ def busqueda():
     if request.method == 'POST':
         listado = []
         nombre = request.form.get('buscador', '').lower()
+        clima_seleccionado = request.form.get('clima', '')
         for coche in coches_json:
             for prueba in coche["pruebas"]:
-                if prueba["modelo"].lower().startswith(nombre) or nombre == '':
+                if (prueba["modelo"].lower().startswith(nombre) or nombre == '') and (prueba["condiciones"]["clima"] == clima_seleccionado or clima_seleccionado == ''):
                     listado.append({
                         "id": prueba["id"],
                         "modelo": prueba["modelo"],
                         "consumo_combinado": prueba["consumo"]["combinado"]
                     })
-        return render_template('busqueda.html', listado=listado, nombre=nombre)
+        return render_template('busqueda.html', listado=listado, nombre=nombre, clima_seleccionado=clima_seleccionado)
     else:
-        return render_template('busqueda.html', listado=[], nombre='')
+        return render_template('busqueda.html', listado=[], nombre='', clima_seleccionado='')
 
 
 @app.route('/detalle/<id>')
